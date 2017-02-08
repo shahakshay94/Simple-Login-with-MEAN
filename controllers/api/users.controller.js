@@ -55,7 +55,6 @@ function getAllUser(req, res) {
     userService.getAll()
         .then(function (users) {
             if (users){
-                console.log(users);
                 res.send(users)
             } else{
                 res.sendStatus(404);
