@@ -27,8 +27,8 @@
             });
         }
         function getSessionID() {
-            $.get('/app/token', function (token) {
-                vm.sessionID = token;
+            $.get('/app/sessionID', function (id) {
+                vm.sessionID = id;
             });
         }
 
