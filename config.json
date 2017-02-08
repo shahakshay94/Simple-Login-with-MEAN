@@ -1,0 +1,6 @@
+﻿{
+    "dbString": "mongodb://localhost:27017/login",
+    "restAPIURL": "http://localhost:3000/api",
+    "secretString": "shahakshay94logindemousingMEANstack",
+    "_comment":"global variables defined.JSON file doesn't allow comments, according to RFC 4627"
+}

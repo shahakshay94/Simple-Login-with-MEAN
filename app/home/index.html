@@ -1,0 +1,7 @@
+﻿<h1>Hi {{vm.user.firstName}} {{vm.user.lastName}}!!</h1>
+<h2>Your session ID is : </h2>
+<h3>List of all the users are as follows:</h3>
+<ul ng-repeat="(key, value) in vm.users">
+    <li><b>{{value.username}}</b><i ng-if="vm.user.username === value.username"> [you]</i> created on {{value.created}}
+    </li>
+</ul>
