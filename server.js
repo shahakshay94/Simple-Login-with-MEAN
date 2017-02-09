@@ -28,6 +28,6 @@ app.get('/', function (req, res) {
 });
 
 // start server
-var server = app.listen(80, function () {
+var server = app.listen(3000, function () {
     console.log('Server listening at port :::: ' + server.address().port);
 });
